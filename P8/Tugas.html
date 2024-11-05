@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Kontak</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="Tugas.js"></script>
+</head>
+<body>
+  <h1>Formulir Kontak</h1>
+  <form id="contact-form">
+    <label for="name">Nama Lengkap:</label>
+    <input type="text" id="name" name="name">
+    <span id="name-error"></span>
+    <br><br>
+    <label for="email">Alamat Email:</label>
+    <input type="email" id="email" name="email">
+    <span id="email-error"></span>
+    <br><br>
+    <label for="subject">Subjek:</label>
+    <input type="text" id="subject" name="subject">
+    <span id="subject-error"></span>
+    <br><br>
+    <label for="message">Pesan:</label>
+    <textarea id="message" name="message"></textarea>
+    <span id="message-error"></span>
+    <br><br>
+    <button type="submit">Kirim</button>
+  </form>
+  <div id="success-message"></div>
+</body>
+</html>

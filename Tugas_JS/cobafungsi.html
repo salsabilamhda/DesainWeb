@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Membuat fungsi konfirmasi
+        var sayHello = () => {
+            // Menampilkan pop-up konfirmasi
+            var yakin = confirm("Yakin ingin mengunjungi link?");
+            
+            // Jika pengguna memilih 'Ya', lakukan sesuatu (misalnya lanjutkan ke link)
+            if (yakin) {
+                alert("Anda memilih 'Ya'");
+                // Di sini bisa menambahkan logika untuk melanjutkan ke link
+            } 
+            // Jika memilih 'Tidak', tidak melakukan apa-apa
+            else {
+                alert("Anda memilih 'Tidak'");
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Memanggil fungsi saat link diklik -->
+    <a href="#" onclick="sayHello()">Klik Aku!</a>
+</body>
+</html>

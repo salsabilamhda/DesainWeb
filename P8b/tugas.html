@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('Download Crumpled paper background for free.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+    </style>
+    
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="logo_polinema_by_adminkerapolinema_d3b0ojd-fullview.jpg" alt="Logo Polinema" style="width: 50px; height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Portfolio</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Web Design</a></li>
+                        <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                        <li><a class="dropdown-item" href="#">Photography</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects and skills</p>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Portfolio</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="hermoso.jpeg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="100+ Sunset Aesthetic Wallpapers and Backgrounds (Free, High-Res).jpeg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="hermoso.jpeg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="100+ Sunset Aesthetic Wallpapers and Backgrounds (Free, High-Res).jpeg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="hermoso.jpeg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="100+ Sunset Aesthetic Wallpapers and Backgrounds (Free, High-Res).jpeg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal Template for Portfolio -->
+<div class="modal fade" id="portfolioModal1" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="hermoso.jpeg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Duplicate the modal structure and change the ID for each portfolio item -->
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="Gambar WhatsApp 2024-10-22 pukul 19.14.32_dcaa9a73.jpg" class="rounded-circle img-fluid mb-3" alt="My Photo">
+            </div>
+            <div class="col-md-8">
+                <p>Hello! Im Salsabila Mahda Runisha</p>
+                <p>Student at State Ploythecnic of Malang</p>
+                <p>Skills:</p>
+                <div class="mb-3">
+                    <p>HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <p>CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <p>JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;">65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>Follow me on Instagram</p>
+    <a href="https://www.instagram.com/salsabilamhda" class="text-white mx-2" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

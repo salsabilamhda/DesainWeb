@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Masakan Nusantara</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+        function message() {
+            alert("Klik OK untuk mengunjungi halaman ini");
+        }
+
+        function pertanyaan() {
+            var ptr = prompt("Apakah Tulisan Header Dari Web Ini?");
+
+            if(ptr == "Masakan Nusantara") {
+                window.location.href = 'history.html'; 
+            } else {
+                alert("Jawaban salah, coba lagi!");
+            }
+        }
+    </script>
+</head>
+
+<body onload="message()">
+
+    <div class="header">
+        <div class="judul">
+            <h2>Masakan Nusantara</h2>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="img/banner1.jpg" alt="Banner Liburan">
+        <h1>Selamat Datang di Website Masakan Nusantara Indonesia</h1>
+        <h2><a href="#" class="detail" onclick="pertanyaan()">Klik disini untuk tahu lebih banyak</a></h2> <!-- Panggil fungsi checkPassword -->
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Salsabila Mahda. All rights reserved.</p>
+    </div>
+
+</body>
+
+</html>
